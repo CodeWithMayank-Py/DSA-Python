@@ -22,3 +22,15 @@ if __name__ == '__main__':
     arr.sort()      # If array is not sorted
     print(twosum(arr,n,x)) # Print the pairs of targeted number in array
     # Output: (8,9)
+
+
+# Time complexity
+# Without sort function = O(n)
+'''The loop runs at most n times, where i and j move based on the conditions.'''
+
+# With sort function = O(nlogn)
+'''sort() operation takes logn time + n for the loops, so it's complexit is O(nlogn).'''
+
+# Space Complexity = O(1)
+# Algothrim sorts the array in-place, so no additonal space required
+# Algothrim used constant amount of space in i,j,n,x.
